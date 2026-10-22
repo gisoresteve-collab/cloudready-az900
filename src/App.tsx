@@ -208,7 +208,7 @@ function App() {
                 <button className="primary-button" onClick={() => startQuiz()}>
                   Start practising <span aria-hidden="true">→</span>
                 </button>
-                <p className="hero-note">30 original practice questions · No account required</p>
+                <p className="hero-note">60 original practice questions · No account required</p>
               </div>
               <div className="hero-art" aria-hidden="true">
                 <div className="orbit orbit-one" />
@@ -226,7 +226,7 @@ function App() {
                   <span className="eyebrow">YOUR LEARNING PATH</span>
                   <h2>Choose a study area</h2>
                 </div>
-                <span className="muted-text">30 questions total</span>
+                <span className="muted-text">60 questions total</span>
               </div>
               <div className="topic-grid">
                 <button
@@ -236,7 +236,7 @@ function App() {
                   <span className="topic-icon">✦</span>
                   <span className="topic-card-title">All topics</span>
                   <span className="topic-description">A complete practice session</span>
-                  <span className="topic-count">30 questions</span>
+                  <span className="topic-count">60 questions</span>
                 </button>
                 {topics.map((topic, index) => (
                   <button
